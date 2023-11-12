@@ -1,0 +1,56 @@
+/* Estilize o título da carta */
+h1 {
+    font-family: 'Arial', sans-serif;
+    color: #990000; /* Vermelho escuro */
+}
+
+/* Estilos gerais */
+
+/* Media Query para telas menores que 600px */
+@media (max-width: 600px) {
+    /* Estilos para telas menores */
+}
+
+/* Outras Media Queries para adaptar estilos a diferentes tamanhos de tela */
+@media (max-width: 900px) {
+    /* Estilos para telas menores que 900px */
+}
+
+
+/* Estilos para o quebra-cabeça */
+.quebracabeca {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Estilize cada parte do quebra-cabeça */
+.parte {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #3333cc; /* Azul característico de Harry Potter */
+    cursor: pointer;
+}
+
+/* Estilize o símbolo da Disney no fundo */
+body {
+    background-image: url('disney.png'); /* Substitua 'disney.png' pelo caminho correto da imagem */
+    background-size: 100px; /* Tamanho do símbolo da Disney */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Estilos gerais */
+
+/* Estilos para o quebra-cabeça */
+.quebracabeca {
+    display: flex;
+    flex-wrap: wrap;
+    /* Estilos para as peças do quebra-cabeça */
+    /* ... */
+}
+
+
